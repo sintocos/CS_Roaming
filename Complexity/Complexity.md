@@ -1,5 +1,4 @@
-# CS中的复杂性
-
+# 计算机科学复杂性相关文章整理
 1. 编程的本质是控制复杂性。  
 Controlling complexity is the essence of computer programming. --Brian W. Kernighan  
 2. 相比其他技术领域，美对于计算来说更为重要，因为软件超乎寻常的复杂，而美是对复杂性的一种终极防御。  
@@ -26,9 +25,8 @@ Any problem in computer science can be solved by another layer of indirection. -
 ###1.1 Less is more  
  如何正确理解Less is More: https://www.zhihu.com/question/33602031
 ###1.2 More is different  
- 原文：https://www.tkm.kit.edu/downloads/TKM1_2011_more_is_different_PWA.pdf
- 原文可参考中文版  
- 知乎评论 https://www.zhihu.com/question/55213792  
+ 原文：https://www.tkm.kit.edu/downloads/TKM1_2011_more_is_different_PWA.pdf  
+ 知乎 https://www.zhihu.com/question/55213792  
   https://www.zhihu.com/question/26428553   
  涌现的数学基础：https://zhuanlan.zhihu.com/p/44095458  
 
@@ -37,24 +35,26 @@ Any problem in computer science can be solved by another layer of indirection. -
 https://journals.sagepub.com/doi/pdf/10.1068/b2702ed  
 底层为01到上层宏大的架构，层层递进，层层抽象  
 系统化 结构 组织 形式  
-评论more is different,然后转入CS  
-少就是少，少即不比多好，也不比多差，少就是和多不一样  
+由more is different,转入CS复杂度  
+少就是少，少既不比多好，也不比多差，少就是和多不一样  
 还原论思想 整体大于局部 量变带来质变 形式决定功能  
-计算机中，位置和元素，上下文决定解释方式  
+计算机中，位置和元素，上下文决定元素的解释方式  
 
 ## 2.Computation Theory 
-（这一节也许可以省略）
-###2.1 介绍可计算性  
-  可计算性理论 微信搜索：理论计算机科学浅涉：可计算性理论  
-  微信搜索：【CCCF专题】理论计算机  
-###2.2 介绍计算复杂性理论（空间复杂度，时间复杂度）  
+###2.1 可计算性  
+  可计算性理论   wiki  
+  微信：理论计算机科学浅涉：可计算性理论  
+  微信：【CCCF专题】理论计算机  
+###2.2 计算复杂性理论
+  空间复杂度，时间复杂度  
 ###2.3 others  
 许多学科都是人类知识的一种组织形式。  
 CS重在对过程性知识的形式化，而数学重在对说明性知识的形式化。  
 
 ## 3.Complexity Control
 ###3.1 减少复杂度本身带来复杂度？ 复杂性如何度量? 复杂性带来什么问题  
-  软件工程，人月神话，什么是好的软件或程序：可重用，健壮，可扩展，高内聚，低耦合...  
+  软件工程，人月神话  
+  什么是好的软件或程序：可重用，健壮，可扩展，高内聚，低耦合...  
   关于软件本质的一点思考：https://www.cnblogs.com/aquastone/p/sicp-thinking.html  
   算法=逻辑+控制 程序=算法+数据结构 https://www.cnblogs.com/feng9exe/p/10186900.html  
   复杂性的随笔：https://www.cnblogs.com/feng9exe/category/1170468.html  
@@ -62,7 +62,7 @@ CS重在对过程性知识的形式化，而数学重在对说明性知识的形
 ###3.2 控制复杂度的基本思想：抽象  
   什么是抽象 https://juejin.im/entry/5a39bf776fb9a0450909a4d0  
   分层架构 https://juejin.im/entry/5b5a8928e51d4519115d2ab3  
-  分层，分类，分治，封装....   分层太多间接太多降低效率，分层太少太复杂，一个衡量的问题   
+  分层，分类，分治，封装....   分层太多间接太多降低效率，分层太少太复杂，是一个衡量的问题   
 ###3.3 各个CS领域中的复杂性和控制复杂性的手段  
   编码与信息论 大规模软件工程 缓存机制 数据结构（参考wiki）  
   计算机网络的分层设计，操作系统的三个抽象(CSAPP) 
@@ -80,7 +80,7 @@ CS重在对过程性知识的形式化，而数学重在对说明性知识的形
 
 ## 结语：
 语言和词语也是对现实的一种抽象和简化，但有时反而更能反应本质，less is more.   
-回过头来，本文主要做的是一个整理的工作，也是在控制复杂性。  
+本文主要做的是一个整理的工作，也是在控制复杂度。  
 
 ## 推荐书籍和参考
 1. 《复杂》https://book.douban.com/subject/6749832/ 
