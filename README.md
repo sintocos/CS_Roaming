@@ -3,7 +3,7 @@ Computer Science Notes
 
 https://en.wikipedia.org/wiki/Computer_science  
 
-1. 算法  数据结构  Java/C++/C#/Python语言  
+1. 算法  数据结构  Java/C++/C#/Python/JavaScript
 
 2. OS  Net  Database  Compiler 
 
